@@ -1,0 +1,108 @@
+=== Job Log: /local/homework_cs358800_winter_2026/raniayu/project/train.py ===
+Status: Job Successfully ran. Check output below.
+----------------------------------------
+/local/homework_cs358800_winter_2026/raniayu/rani-env/lib/python3.12/site-packages/torch/nn/utils/weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+IterableDataset({
+    features: ['id', 'audio', 'duration_ms', 'text'],
+    n_shards: 804
+})
+Found checkpoint: checkpoint_ep6_step2000.pt
+[epoch 6] Fetching unseen evaluation batch...
+Original: detected=tensor([1.3351e-03, 5.4322e-03, 1.5854e-03, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.1933e-03, 4.1722e-05, 0.0000e+00, 3.9261e-03, 8.3445e-06,
+        0.0000e+00, 0.0000e+00, 1.2938e-02, 2.7787e-03, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.0764e-03, 0.0000e+00, 1.0013e-03, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.6272e-04, 3.4630e-04, 1.1766e-03, 2.9206e-05, 2.9039e-03,
+        2.2351e-02, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 9.0955e-04,
+        0.0000e+00, 3.3503e-03, 7.1178e-03, 0.0000e+00, 7.9856e-03, 6.3001e-04,
+        7.3932e-03, 0.0000e+00, 0.0000e+00, 2.0444e-04, 2.0444e-04, 1.3435e-03,
+        1.1182e-03, 0.0000e+00, 0.0000e+00, 4.1722e-05, 0.0000e+00, 1.6105e-03,
+        1.7523e-04, 4.4226e-04, 0.0000e+00, 0.0000e+00, 0.0000e+00, 5.7994e-04,
+        2.5033e-04, 6.5391e-02, 2.0861e-03, 4.6729e-04], device='cuda:0')
+Watermarked: detected=tensor([0.9998, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 0.9995, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000], device='cuda:0')
+Purified: detected=tensor([7.8204e-01, 3.1468e-01, 1.6450e-01, 3.1925e-01, 1.0564e-02, 7.1374e-01,
+        8.7586e-01, 2.9767e-01, 2.2111e-01, 6.9060e-01, 3.0791e-03, 6.6977e-01,
+        6.6234e-02, 1.8312e-02, 1.5442e-01, 9.6929e-02, 3.2408e-01, 3.4804e-01,
+        1.2917e-01, 4.2122e-01, 2.7312e-01, 6.0800e-01, 2.6317e-01, 9.5619e-02,
+        3.0275e-01, 3.1322e-01, 4.9504e-01, 7.1195e-02, 7.3102e-01, 5.6135e-01,
+        4.8811e-01, 3.1959e-03, 7.6659e-01, 8.0664e-01, 7.3788e-01, 6.4317e-01,
+        5.3081e-01, 8.4417e-02, 4.2642e-01, 2.1295e-02, 2.3456e-02, 2.0491e-01,
+        1.3998e-01, 4.7552e-01, 6.3609e-01, 8.2270e-01, 7.8927e-01, 6.8467e-01,
+        4.5440e-02, 2.4594e-01, 3.7181e-01, 3.2623e-01, 4.4924e-01, 5.0569e-01,
+        1.5437e-04, 4.1722e-05, 5.6275e-01, 7.1522e-01, 2.2871e-01, 1.9169e-01,
+        6.4394e-01, 1.6696e-01, 1.0776e-01, 5.8102e-01], device='cuda:0')
+Purification success count: 42/64 avg msg_prob=0.3713039457798004
+Sample 0 id=OurEnemy1943_SLASH_OurEnemy1943_DOT_mp3_00002.flac pesq=4.375675201416016 si-sdr=21.159107208251953
+Sample 1 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00232.flac pesq=4.263634204864502 si-sdr=19.7333927154541
+Sample 2 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00113.flac pesq=4.231789588928223 si-sdr=22.44795036315918
+Sample 3 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00119.flac pesq=4.119534969329834 si-sdr=20.535886764526367
+Sample 4 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00114.flac pesq=4.061789512634277 si-sdr=20.18552017211914
+Sample 5 id=Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_SLASH_Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_DOT_mp3_00052.flac pesq=3.9653830528259277 si-sdr=20.800342559814453
+Sample 6 id=Our_Community_Cares_Camp_-_Summer_2014_SLASH_Our_Community_Cares_Camp_-_Summer_2014_DOT_mp3_00002.flac pesq=3.97476863861084 si-sdr=18.745559692382812
+Sample 7 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00156.flac pesq=4.1234259605407715 si-sdr=22.06055450439453
+Sample 8 id=OurBarnsAHistoryOfTheBarnsOfMaine_471_SLASH_HistoryOfBarnsPd_DOT_mp3_00050.flac pesq=4.378810882568359 si-sdr=24.158645629882812
+Sample 9 id=OurEnemy1943_SLASH_OurEnemy1943_DOT_mp3_00007.flac pesq=4.422811985015869 si-sdr=21.06916046142578
+Sample 10 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00207.flac pesq=4.15827751159668 si-sdr=21.587886810302734
+Sample 11 id=Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_SLASH_Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_DOT_mp3_00056.flac pesq=3.679779052734375 si-sdr=16.282833099365234
+Sample 12 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00194.flac pesq=4.085505485534668 si-sdr=22.216938018798828
+Sample 13 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00220.flac pesq=4.2362165451049805 si-sdr=23.58700942993164
+Sample 14 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00176.flac pesq=4.1757049560546875 si-sdr=24.049442291259766
+Sample 15 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00245.flac pesq=4.125800132751465 si-sdr=23.559587478637695
+Sample 16 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00194.flac pesq=4.261875152587891 si-sdr=22.17830467224121
+Sample 17 id=Our_Community_Cares_Camp_-_May_2015_News_SLASH_Our_Community_Cares_Camp_-_May_2015_News_DOT_mp3_00018.flac pesq=4.088296890258789 si-sdr=23.262451171875
+Sample 18 id=Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_SLASH_Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_DOT_mp3_00033.flac pesq=3.893738269805908 si-sdr=23.34791374206543
+Sample 19 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00131.flac pesq=4.198649883270264 si-sdr=22.304046630859375
+Sample 20 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00181.flac pesq=4.237997531890869 si-sdr=21.91838836669922
+Sample 21 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00051.flac pesq=4.166273593902588 si-sdr=22.233572006225586
+Sample 22 id=OurBarnsAHistoryOfTheBarnsOfMaine_471_SLASH_HistoryOfBarnsPd_DOT_mp3_00031.flac pesq=4.31269645690918 si-sdr=22.272119522094727
+Sample 23 id=Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_SLASH_Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_DOT_mp3_00007.flac pesq=4.022465705871582 si-sdr=20.044755935668945
+Sample 24 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00240.flac pesq=4.1742167472839355 si-sdr=22.15662384033203
+Sample 25 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00102.flac pesq=4.135222911834717 si-sdr=22.183738708496094
+Sample 26 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00083.flac pesq=4.166141510009766 si-sdr=22.170372009277344
+Sample 27 id=Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_SLASH_Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_DOT_mp3_00016.flac pesq=4.013561725616455 si-sdr=21.04633140563965
+Sample 28 id=Outsider1951_SLASH_Outsider1951_DOT_mp3_00001.flac pesq=4.451174259185791 si-sdr=23.029582977294922
+Sample 29 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00124.flac pesq=4.193212032318115 si-sdr=21.587188720703125
+Sample 30 id=Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_SLASH_Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_DOT_mp3_00100.flac pesq=3.5920956134796143 si-sdr=14.973684310913086
+Sample 31 id=OurBarnsAHistoryOfTheBarnsOfMaine_471_SLASH_HistoryOfBarnsPd_DOT_mp3_00076.flac pesq=4.3691205978393555 si-sdr=24.683700561523438
+Sample 32 id=OurEnemy1943_SLASH_OurEnemy1943_DOT_mp3_00005.flac pesq=4.420702934265137 si-sdr=21.902706146240234
+Sample 33 id=OutofThi1954_SLASH_OutofThi1954_DOT_mp3_00000.flac pesq=3.947899103164673 si-sdr=17.246877670288086
+Sample 34 id=Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_SLASH_Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_DOT_mp3_00081.flac pesq=4.106116771697998 si-sdr=24.566635131835938
+Sample 35 id=Our_Community_Cares_Camp_Public_Service_Announcement_SLASH_Our_Community_Cares_Camp_Public_Service_Announcement_DOT_mp3_00009.flac pesq=4.114193439483643 si-sdr=24.24694061279297
+Sample 36 id=Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_SLASH_Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_DOT_mp3_00086.flac pesq=3.451312780380249 si-sdr=15.824417114257812
+Sample 37 id=Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_SLASH_Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_DOT_mp3_00021.flac pesq=3.859158754348755 si-sdr=20.135364532470703
+Sample 38 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00027.flac pesq=4.206079483032227 si-sdr=21.474361419677734
+Sample 39 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00090.flac pesq=4.138345241546631 si-sdr=21.647899627685547
+Sample 40 id=OurBarnsAHistoryOfTheBarnsOfMaine_471_SLASH_HistoryOfBarnsPd_DOT_mp3_00014.flac pesq=4.402302265167236 si-sdr=19.117862701416016
+Sample 41 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00217.flac pesq=4.166045665740967 si-sdr=23.198776245117188
+Sample 42 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00159.flac pesq=4.220287322998047 si-sdr=22.99098777770996
+Sample 43 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00035.flac pesq=4.229766368865967 si-sdr=22.86486053466797
+Sample 44 id=Our_Community_Cares_Camp_Public_Service_Announcement_SLASH_Our_Community_Cares_Camp_Public_Service_Announcement_DOT_mp3_00013.flac pesq=4.079638957977295 si-sdr=24.75642967224121
+Sample 45 id=Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_SLASH_Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_DOT_mp3_00051.flac pesq=3.652808427810669 si-sdr=16.243906021118164
+Sample 46 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00126.flac pesq=4.12802267074585 si-sdr=21.433792114257812
+Sample 47 id=Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_SLASH_Overcoming_Racism_Conference_2014_-_Transformation_Talks_Panel_DOT_mp3_00087.flac pesq=3.9262070655822754 si-sdr=22.308521270751953
+Sample 48 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00136.flac pesq=4.219831943511963 si-sdr=21.07061004638672
+Sample 49 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00237.flac pesq=3.9255428314208984 si-sdr=21.7174129486084
+Sample 50 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00218.flac pesq=4.154106616973877 si-sdr=22.95647621154785
+Sample 51 id=OurBarnsAHistoryOfTheBarnsOfMaine_471_SLASH_HistoryOfBarnsPd_DOT_mp3_00043.flac pesq=4.384495258331299 si-sdr=24.02292251586914
+Sample 52 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00044.flac pesq=4.088493347167969 si-sdr=21.883066177368164
+Sample 53 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00147.flac pesq=4.204916954040527 si-sdr=21.84589385986328
+Sample 54 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00178.flac pesq=4.214518070220947 si-sdr=22.516878128051758
+Sample 55 id=Our_Community_Cares_Camp_PSA_2-25-14_SLASH_Our_Community_Cares_Camp_PSA_2-25-14_DOT_mp3_00026.flac pesq=3.4782540798187256 si-sdr=21.797359466552734
+Sample 56 id=Outsider1951_SLASH_Outsider1951_DOT_mp3_00002.flac pesq=4.425028324127197 si-sdr=21.661277770996094
+Sample 57 id=OurChang1957_SLASH_OurChang1957_DOT_mp3_00023.flac pesq=4.388601303100586 si-sdr=22.731163024902344
+Sample 58 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00202.flac pesq=4.187374114990234 si-sdr=24.521137237548828
+Sample 59 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00142.flac pesq=4.179347991943359 si-sdr=22.578487396240234
+Sample 60 id=Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_SLASH_Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_DOT_mp3_00003.flac pesq=4.073534965515137 si-sdr=16.144399642944336
+Sample 61 id=Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_Sam_Grant_Keynote_DOT_mp3_00203.flac pesq=4.206724166870117 si-sdr=24.45676612854004
+Sample 62 id=Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_SLASH_Overcoming_Racism_Conference_2014_-_MayKao_Hang_Keynote_DOT_mp3_00047.flac pesq=4.240570068359375 si-sdr=22.749526977539062
+Sample 63 id=Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_SLASH_Overcoming_Racism_Conference_2015_-_Part_3_-_Keynote_Speakers_DOT_mp3_00048.flac pesq=3.627441883087158 si-sdr=16.35638999938965
+Average PESQ: 4.1204
+Average SI-SDR: 21.5710
